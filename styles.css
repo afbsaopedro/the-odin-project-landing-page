@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.gods-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hero {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+.hero > div {
+    flex-basis: 50%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.container {
+    max-width: 80%;
+    margin-inline: auto;
+}
+
+.god-box {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.god-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0px -10px;
+}
+
+.dark-background {
+    background-color: #1f2937;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+}
+
+.mid-background {
+    background-color: #e5e7eb;
+    padding: 100px;
+    margin-block: 100px;
+}
+
+.title {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.logo-text {
+    font-size: 24px;
+    color: #f9faf8;
+    display: flex;
+    align-items: center;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 0;
+    outline: 0;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 18px;
+    padding-inline: 10px;
+    padding-block: 10px;
+}
+
+.information-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+}
+
+.mid-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: oblique;
+    padding-inline: 500px;
+    padding-top: 50px;
+}
+
+.quotee {
+    font-size: 24px;
+    font-weight: 600;
+    color: #1f2937;
+    text-align: right;
+    margin-top: 50px;
+    margin-right: 200px;
+    padding-bottom: 35px;
+}
+
+.end-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.end-container {
+    background-color: #3882f6;
+    width: 70%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    padding-bottom: 25px;
+}
+
+.end-title {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.end-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.end-button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: #f9faf8 solid 2px;
+    border-radius: 7px;
+    outline: 0;
+    font-weight: bold;
+    font-size: 18px;
+    padding-inline: 10px;
+    padding-block: 10px;
+}
+
+.smite-icon {
+    width: 32px;
+}
+
+.quote-section {
+    text-align: left;
+}
+
+.god-names {
+    font-size: 24px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+    display: block;
+    max-width: 200px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
